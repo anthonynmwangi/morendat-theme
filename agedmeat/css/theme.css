@@ -1,0 +1,152 @@
+img{ max-width: 100%; height: auto;}
+a:hover{ color: inherit; }
+
+.container{ max-width: 1200px;}
+
+header .navbar-toggler{ margin-left: -1rem; }
+header .navbar{ padding: .5rem 0; }
+.navbar-dark .navbar-toggler{ border:none;}
+.nav-pills .nav-item{ font-weight: bold; text-transform: uppercase; border-radius:0; background: #c4c4c4; color: #4D4D4D; }
+.nav-pills .nav-item.active{ color: #FFF; }
+.nav-pills .nav-item:hover{ opacity: 0.7;}
+
+.btn{ border-radius:0; display:block; font-size: 90%; }
+.btn:hover{ color: inherit; opacity: 0.7; }
+
+.navbar-dark .navbar-toggler{ color: #ffffff; border-color: #ffffff; }
+
+#wrapper-banner{ max-height: 550px; overflow: hidden; }
+#wrapper-banner.banner-farm{ max-height: none; overflow: visible; }
+
+#banner-screen{ background-image: url("../images/banner-screen.png"); background-repeat: repeat-x; background-position:bottom; z-index: 10; bottom: 0;}
+#banner-text{ z-index: 30; top: 0; }
+.featured{ top:20px; }
+
+.cuts { fill: #0F0; }
+
+.modal-dialog{ max-width: 550px;}
+
+.quantity .btn, .quantity input, .woocommerce .quantity .qty {
+  width: 32px;
+  height: 32px;
+}
+
+.quantity input {
+  border: 1px solid #d8d8d8;
+  text-align: center;
+}
+
+.form-row{ margin: inherit; }
+.form-control{ background: #C4C4C4; border-radius: 0; border: 1px solid #C4C4C4;}
+
+.bloodshot{ position: absolute; z-index: 16; min-width: 400px; }
+.bloodshot img{ cursor: pointer}
+.bloodshot .details{ display: none; }
+.bloodshot#spot-mountain{ top: 26%; left: 30%; }
+.bloodshot#spot-animals{ top: 50%; left: 10%; }
+.bloodshot#spot-feed{ top: 65%; left: 65%; }
+
+.tag-badge{ width: 95px; bottom: 0; right: 0; margin: 0; }
+
+/** Product CSS **/
+.product .wrapper-image > img:last-child{ width: 100%; }
+.add_to_cart_button{ width: 100%; color: #FFF; text-align: center; display: block; background: #780001; font-size: 90%; padding: .25rem!important; font-weight: 600; border: none; }
+.add_to_cart_button:hover{ opacity: 0.7;}
+
+.woocommerce-ordering, .woocommerce-result-count, .woocommerce-products-header{ display: none; }
+.woocommerce-breadcrumb{ font-size: 85%; }
+
+.added_to_cart.wc-forward{ display: none; }
+.wrapper-img{ position: relative; }
+.wrapper-img .checkbox{ border: solid 3px #780001;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px; }
+
+  .elementor-column-gap-default>.elementor-row>.elementor-column>.elementor-element-populated{ padding: 10px 0;}
+
+#recipe ol{ padding-left: 1rem!important; }
+#recipe ul{ padding-left: 0; list-style: none; }
+#recipe li{ margin-bottom: .5rem!important; }
+
+@media (max-width: 767px) {
+  #banner-text .text-l{ font-size: 42px; }
+}
+
+@media (max-width: 480px) {
+  #banner-text{ position: relative !important; margin-top: 40px; }
+}
+
+
+div[itemprop="description"] p {
+  height: 110px;
+}
+
+
+.lost_reset_password{ width: 450px; margin: 0 auto 5rem;}
+.lost_reset_password .form-row-first{ margin: 3rem 0 0; }
+.lost_reset_password label{ color: #FFF; font-size: 0.9rem; margin-bottom: .5rem; font-weight: 300; }
+
+.lost_reset_password input {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 0.9rem;
+  color: #212529;
+  background-clip: padding-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  border-radius: 0!important;
+
+  background: #C4C4C4;
+  border: 1px solid #C4C4C4;
+
+}
+
+.lost_reset_password button[type=submit] {
+  display: inline-block;
+  font-weight: 400;
+  line-height:normal!important;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .5rem 0!important;
+  font-size: 1rem;
+  border-radius: 0;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  background-color: #780001 !important;
+  color: #FFF;
+  width: 100%!important;
+  margin-top: 1rem!important;
+  text-transform: uppercase;
+}
+
+.lost_reset_password button[type=submit]:hover {
+  color: inherit;
+  opacity: 0.7;
+  border-color: #780001;
+}
+
+.woocommerce-error{ color: #780001; text-align: center;}
+
+.woocommerce-product-gallery .wp-post-image{ width: 100%; }
+.summary .product_meta{ display: none; }
+
+footer hr{ border-color: rgba(255,255,255,.6); }
+
+@media (max-width: 480px) {
+  div[itemprop="description"] p {
+    height: auto;
+  }
+}

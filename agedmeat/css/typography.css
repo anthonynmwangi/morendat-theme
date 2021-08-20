@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/Gotham-Light.eot');
+  src: url('../fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Gotham-Light.woff2') format('woff2'),
+      url('../fonts/Gotham-Light.woff') format('woff'),
+      url('../fonts/Gotham-Light.ttf') format('truetype'),
+      url('../fonts/Gotham-Light.svg#Gotham-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/Gotham-Medium.eot');
+  src: url('../fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Gotham-Medium.woff2') format('woff2'),
+      url('../fonts/Gotham-Medium.woff') format('woff'),
+      url('../fonts/Gotham-Medium.ttf') format('truetype'),
+      url('../fonts/Gotham-Medium.svg#Gotham-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+body { font-family: 'Gotham', Fallback, sans-serif; font-weight: 300; }
+h1,h2,h3,h4,h5,h6,.text-bold { font-weight: 500; }
+.haviland{ font-family: 'Mr De Haviland', cursive; }
+.cursor-pointer{ cursor: pointer;}
+
+/* Font Size */
+.text-l{ font-size: 54px; }
+.text-s{ font-size: 14px; }
+.text-xs{ font-size: 12px; }
+.text-xxs{ font-size: 10px; }
+.text-pre{ margin-bottom: -12px;}
+
+/* Font Color */
+.text-black{ color: #000000;}
+.text-red, .text-red a{ color: #780001; }
+a{ color:inherit; }
+a:hover{ text-decoration: none; }
+
+/* Background Color */
+.bg-black{ background: #000000; color: #FFF;}
+.bg-dark{ background: #0D0D0D !important; color: inherit; }
+.bg-red, .nav-pills .nav-item.active{ background: #780001; color: inherit; }
+
+.nav-link, pre{ color:#FFF;}
+.nav-item.active .nav-link, .nav-link:hover{ opacity: 0.6;}
+
+
+.current_page_item a, #main-menu a:hover {
+  opacity: 0.6;
+}
+
+#main-menu a {
+  color: #FFF;
+  display: block;
+  padding: .5rem 1rem;
+  padding-right: 0;
+  padding-left: 0;
+  text-decoration: none;
+}

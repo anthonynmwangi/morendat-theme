@@ -1,0 +1,119 @@
+/* LOGIN PAGE CSS */
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/Gotham-Light.eot');
+  src: url('../fonts/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Gotham-Light.woff2') format('woff2'),
+      url('../fonts/Gotham-Light.woff') format('woff'),
+      url('../fonts/Gotham-Light.ttf') format('truetype'),
+      url('../fonts/Gotham-Light.svg#Gotham-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham';
+  src: url('../fonts/Gotham-Medium.eot');
+  src: url('../fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Gotham-Medium.woff2') format('woff2'),
+      url('../fonts/Gotham-Medium.woff') format('woff'),
+      url('../fonts/Gotham-Medium.ttf') format('truetype'),
+      url('../fonts/Gotham-Medium.svg#Gotham-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+body { font-family: 'Gotham', Fallback, sans-serif; font-weight: 300; background: #000000; color:#FFFFFF; }
+
+#login {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  width: 450px;
+}
+
+#login > * a{ color:#00a1b0; text-decoration:none;}
+#login > * a:hover{ color:#72777c;}
+#login h1{  }
+#login h1 a{background: url(../images/logo-morendat.svg) no-repeat center center; height: 85px; width: 300px;}
+#login form {
+    border: none;
+    box-shadow: none;
+  background-color: #0D0D0D;
+  color: #FFFFFF;
+  border-radius: 0!important;
+  padding: 3rem!important;
+  margin-bottom: 1rem!important;
+
+  
+}
+
+
+#login label{ color: #FFF; font-size: 0.9rem; margin-bottom: .5rem; font-weight: 300; }
+#login #nav, #login #backtoblog{ text-shadow:none; color:#CCCCCC;  margin: 11px auto 0; width: 320px; text-align: center; }
+
+#login #nav a{ padding:0 10px;}
+#login #nav a:hover{}
+#login #nav a:first-child{ padding-left:0;}
+
+#backtoblog{ display:none;}
+
+#login #nav a, #login #backtoblog a{ color:inherit !important; text-decoration:none;}
+
+.login .message, .login #login_error { background:none; border:none; box-shadow:none; color: #cc3d4a; margin: 0 auto; text-align: center; }
+
+.wp-core-ui .button-group.button-large .button, .wp-core-ui .button.button-large{ }
+.button:hover{ color: #FFF; background-color: #3c4045 !important; }
+
+
+.login form .input, .login input[type=text] {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 0.9rem;
+  color: #212529;
+  background-clip: padding-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  border-radius: 0!important;
+
+  background: #C4C4C4;
+  border: 1px solid #C4C4C4;
+
+}
+
+.login input[type=submit] {
+  display: inline-block;
+  font-weight: 400;
+  line-height:normal!important;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .5rem 0!important;
+  font-size: 1rem;
+  border-radius: 0;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  background-color: #780001 !important;
+  color: #FFF;
+  width: 100%!important;
+  margin-top: 1rem!important;
+  text-transform: uppercase;
+}
+
+.login input[type=submit]:hover {
+  color: inherit;
+  opacity: 0.7;
+  border-color: #780001;
+}
